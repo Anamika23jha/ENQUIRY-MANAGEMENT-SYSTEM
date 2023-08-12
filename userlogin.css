@@ -1,0 +1,204 @@
+.style{
+    color: #fc1616;
+    margin: auto;
+    border: #fc1616;
+    background-color: rgb(228, 231, 231);
+    margin-top: 200px;
+    
+    text-align: center;
+    
+    height: 400px;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 50%;
+    margin-left: 300px;
+    border-radius: 22px;
+    box-shadow: 0 0 1px 1px rgba(0,0,0.5);
+    background-color: rgb(181, 172, 207);
+    
+}
+form h1{
+    width: 100%;
+    font-family: 'brush script MT';
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.left-container,
+.right-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 15px;
+    align-items: flex-start;
+}
+.input-box-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(16, 7, 61);
+    border-radius: 20px;
+    height: 38px;
+}
+.input-box input{
+    outline: none;
+    color: blueviolet;
+    padding: 3px 17px;
+    border: none;
+    background: none;
+    font-size: 14px;
+    width: 98%;
+    float: left;
+}
+::placeholder{
+    color: brown;
+}
+.password-settings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+
+}
+.password-settings .remember-box{
+    display: flex;
+    cursor: pointer;
+}
+.password-settings #remember_checkbox{
+    margin-right: 5px;
+    background: rgb(170, 6, 6);
+    cursor: pointer;
+}
+.remember-box label{
+    cursor: pointer;
+}
+.password-settings .forgot-password{
+    color: blue;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
+}
+button{
+    width: 100%;
+    border-radius: 20px;
+    background: none;
+    color: black;
+    font-size: 14px;
+    cursor:pointer;
+    border: 2px solid #456;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    height: 38px;
+}
+button:hover{
+    border: 2px solid rgb(1 ,235, 75);
+
+}
+.sign-in{
+    font-weight: 600;
+    background: linear-gradient(35deg,rgb(199, 82, 170),rgb(100,168,87),rgb(116,211,116));
+}
+.right-container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.horizontal-line{
+    width: 100%;
+
+}
+
+h3{
+    text-align: center;
+    overflow: hidden;
+    font-size: 11px;
+
+}
+h3:before,
+h3:after{
+    background-color: rgb(23, 24, 24);
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h3:before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+h3:after{
+    left: 0.5em;
+    margin-right: -50%;
+
+}
+
+.login-methods{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+}
+.fab{
+    color: aliceblue;
+    font-size: 28px;
+    transition: 0.3s;
+
+}
+.fab:hover{
+    color:blueviolet;
+}
+
+@media(max-width:600px){
+    form{
+        justify-content: center;
+        align-items: center;
+        height: 550px;
+        width: 270px;
+        padding: 40px 10px;
+    }
+
+form h1{
+    margin-bottom: 30px;
+
+}
+.left-container,
+.right-container{
+    width: 100%;
+}
+}
+@media(max-width:390px){
+    form{
+        height: 100vh;
+        width: 100%;
+        border-radius: 0;
+    }
+}

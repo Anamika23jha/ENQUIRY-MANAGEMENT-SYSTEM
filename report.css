@@ -1,0 +1,38 @@
+*{
+   padding: 0px;
+   margin: 0px; 
+
+}
+.count{
+    width: 1200px;
+    margin: 0 auto;
+    background-color:#f3d8d8;
+    height: 600px;
+    margin-top: 0 auto px;
+    margin-left: 150px;
+}
+.wrapper{
+    margin-bottom: 20px;
+}
+h1{
+    font-family: verdana;
+    color: blue;
+}
+.data{
+    width: 800px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.data select{
+    width: 200px;
+    padding: 3px;
+}
+.submit{
+    margin-top: 18px;
+    width: 100px;
+    border:none ;
+    padding: 6px;
+    background-color: green;
+    padding:6px ;
+    font-weight: bold;
+}

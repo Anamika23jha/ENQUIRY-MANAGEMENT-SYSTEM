@@ -1,0 +1,89 @@
+.divcol{
+    color: #fc1616;
+    margin: auto;
+    border: #fc1616;
+    background-color: rgb(228, 231, 231);
+    margin-top: 200px;
+    
+    text-align: center;
+    
+    height: 500px;
+    width: 50%
+
+}
+ 
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color:rgb(17, 3, 80);
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px blue;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+    user-input-box:nth-child(2n){
+        justify-content: end;
+    
+    }
+    .user-input-box{
+        display: flex;
+        flex-wrap: wrap;
+        width:50%;
+        padding-bottom:15px ;
+    }
+    .user-input-box label{
+        width: 95%;
+        color: rgb(73, 202, 13);
+        font-size: 20px;
+        font-weight: 400;
+        margin: 5px 0;
+    
+    }
+    .user-input-box input{
+        height: 40px;
+        width: 95%;
+        border-radius: 7px;
+        outline: none;
+        border: 1px solid rgb(2, 163, 101);
+        padding: 0 10px;
+    }
+    .gender-title{
+        color:rgb(34, 28, 28);
+        font-size: 24px;
+        font-weight: 600;
+        border-bottom: 1px solid rgb(12, 11, 11);
+    }
+    .gender-category{
+        margin: 15px 0;
+        color:rgb(31, 28, 28);
+        
+    }
+    .gender-category label{
+        padding: 0 20px 0 5px;
+    }
+    .gender-category label,
+    .gender-category input,
+    .form-sumit-btn input{
+        cursor: pointer;
+    }
+    .form-submit-btn{
+        margin-top: 40px;
+    
+    }
+    .form-submit-btn input{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        font-size: 20px;
+        padding:10px;
+        border: none;
+        border-radius: 3px;
+        color: rgb(160, 172, 164);
+        background: rgb(9, 170, 89);
+    } 

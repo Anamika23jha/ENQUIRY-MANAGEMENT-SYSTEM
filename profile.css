@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --blue:#3498db;
+   --red:#e74c3c;
+   --blue:#3498db;
+   --blue:#3498db;
+   --black:#333;
+   --white:#fff;
+   --light-bg:#eee;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+   --border:2px solid var(--black);
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+   width: 10px;
+   height: 5px;
+}
+
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: var(--blue);
+}
+
+body{
+   background-color: var(white);
+}
+
+.message{
+   position: sticky;
+   top:0; left:0; right:0;
+   padding:15px 10px;
+   background-color: var(--white);
+   text-align: center;
+   z-index: 1000;
+   box-shadow: var(--box-shadow);
+   color:var(--black);
+   font-size: 20px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+*/
+.btn,
+.delete-btn,
+.option-btn{
+   display: inline-block;
+   padding:10px 30px;
+   cursor: pointer;
+   font-size: 18px;
+   color:var(--white);
+   border-radius: 5px;
+   text-transform: capitalize;
+}
+
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+   background-color: var(--black);
+}
+
+.btn{
+   background-color: var(--blue);
+   margin-top: 10px;
+}
+
+.logout-btn{
+   background-color: var(--blue);
+}
+
+.option-btn{
+   background-color: var(--blue);
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 70px;
+   margin-top: 200px;
+}
+/*
+.form-container form{
+   width: 500px;
+   border-radius: 5px;
+   border:var(--border);
+   padding:20px;
+   text-align: center;
+   background-color: var(--white);
+}
+
+.form-container form h3{
+   font-size: 30px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   color:var(--black);
+}
+
+.form-container form .box{
+   width: 100%;
+   border-radius: 5px;
+   border:var(--border);
+   padding:12px 14px;
+   font-size: 18px;
+   margin:10px 0;
+}
+
+.form-container form p{
+   margin-top: 20px;
+   font-size: 20px;
+   color:var(--black);
+}
+
+.form-container form p a{
+   color:var(--red);
+}
+
+.form-container form p a:hover{
+   text-decoration: underline;
+}
+
+.container{
+   padding: 20px;
+    size: 40px;
+   width:500px; height:200px; 
+   margin-top:200px;
+   color: #fff;
+   background-color: rgb(173, 247, 124);
+
+}
+.container .heading{
+   text-align: center;
+   margin-bottom: 20px;
+   font-size: 40px;
+   text-transform: uppercase;
+   color:var(--black);
+   margin-top: 100px;
+}
+*/
+.container .user-profile{
+   padding:20px;
+   text-align: center;
+   border:var(--border);
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   border-radius: 5px;
+   margin:200px auto;
+   max-width: 500px;
+   background-color: #7ac9ee;
+}
+
+.container .user-profile p{
+   margin-bottom: 10px;
+   font-size: 25px;
+   color:var(--black);
+}
+
+.container .user-profile p span{
+   color:var(--red);
+}
+
+.container .user-profile .flex{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap:10px;
+   align-items: flex-end;
+   
+}
+
+
+/*user profile css*/
+.flexbox{
+   margin-top: auto;
+   display: flex;
+   border: 2px solid;
+   background-color: rgb(199, 191, 192);
+   justify-content:center;
+   flex-wrap: wrap;
+}
+
+
+
+
+
+.flexx{
+   background-color:white;
+   border: 2px solid;
+   margin: 10px;
+   width: 100px;
+   height: 100px;
+   font-size: larger;
+   align-items: center;
+
+}

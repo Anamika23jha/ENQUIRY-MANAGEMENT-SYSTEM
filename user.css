@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+:root{
+    --blue:#3498db;
+    --red:#e74c3c;
+    --blue:#3498db;
+    --blue:#3498db;
+    --black:#333;
+    --white:#fff;
+    --light-bg:#eee;
+    --box-shadow:0 5px 10px rgba(0,0,0,.1);
+    --border:2px solid var(--black);
+ }
+
+  .message{
+    position: sticky;
+    top:0; left:0; right:0;
+    padding:15px 10px;
+    background-color: var(--white);
+    text-align: center;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    color:var(--black);
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+ }
+ .container .user-profile{
+    padding:20px;
+    text-align: center;
+    border:var(--border);
+    background-color: var(--black);
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    margin:200px auto;
+    width: 500px;
+    height: 300px;
+    background-color: #33e4b8;
+ }
+ .container .user-profile p{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color:var(--black);
+ }
+ .container .user-profile p span{
+    color:var(--red);
+ }
+   .btn,
+.logout-btn,
+.option-btn{
+   display: inline-block;
+   padding:10px 30px;
+   cursor: pointer;
+   font-size: 18px;
+   color:var(--white);
+   border-radius: 5px;
+   text-transform: capitalize;
+}
+.btn:hover,
+.logout-btn:hover,
+.option-btn:hover{
+   background-color: var(--black);
+}
+.logout-btn{
+    background-color:green;
+ }
+ 
+ .option-btn{
+    background-color: green;
+ }
